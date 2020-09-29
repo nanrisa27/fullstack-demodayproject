@@ -6,12 +6,12 @@ const Navbar = () => {
     <nav className="navbar bg-dark">
       <h1>
         <Link to="/">
-          <i className="fas fa-code"></i> Devs Social Network Platform
+          <i className="fas fa-code"></i> Ctrl-Alt-Fix
         </Link>
       </h1>
       <ul>
         <li>
-          <a href="!#">Developers</a>
+          <Link to="/developers">Developers</Link>
         </li>
         <li>
           <Link to="/register">Register</Link>
