@@ -6,10 +6,12 @@ const Landing = () => {
     <section className="landing">
       <div className="dark-overlay">
         <div className="landing-inner">
-          <h1 className="x-large">Developer Connector</h1>
+          <h1 className="x-large">"Ctrl-Alt-Fix" Developers Hub</h1>
           <p className="lead">
-            Create a developer profile/portfolio, share posts and get help from
-            other developers
+            The coolest social platform for developers to  connect and  share their knowledge and skills on
+            everything web related. Join our Network and stay up to date with  the latest
+            tips and tricks in the industry
+
           </p>
           <div className="buttons">
             <Link to="/register" className="btn btn-primary">
