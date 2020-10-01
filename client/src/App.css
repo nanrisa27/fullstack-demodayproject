@@ -575,3 +575,21 @@ button {
     padding: 0.3rem 0.4rem;
   }
 }
+.Login-new{
+height: 591.0044046643343px;
+width: 549.7114352063444px;
+left: 24.9866943359375px;
+top: 86.7098388671875px;
+border-radius: 27px;
+background: rgba(255, 255, 255, 1);
+border: 3px solid;
+border-image-source: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, #000000, #000000);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color:  rgba(183, 99, 99, 1);
+
+
+
+
+
+}

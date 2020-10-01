@@ -11,8 +11,8 @@ const Developers = () => {
 
 
                 <div class="profile-grid my-1">
-                    <!-- Top -->
-      <div class="profile-top bg-primary p-2">
+
+                    <div class="profile-top bg-primary p-2">
                         <img class="round-img my-1" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
                             alt="" />
                         <h1 class="large">John Doe</h1>
@@ -40,8 +40,8 @@ const Developers = () => {
                         </div>
                     </div>
 
-                    <!-- About -->
-      <div class="profile-about bg-light p-2">
+
+                    <div class="profile-about bg-light p-2">
                         <h2 class="text-primary">John's Bio</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
@@ -59,8 +59,8 @@ const Developers = () => {
                         </div>
                     </div>
 
-                    <!-- Experience -->
-      <div class="profile-exp bg-white p-2">
+
+                    <div class="profile-exp bg-white p-2">
                         <h2 class="text-primary">Experience</h2>
                         <div>
                             <h3 class="text-dark">Microsoft</h3>
@@ -86,8 +86,8 @@ const Developers = () => {
                         </div>
                     </div>
 
-                    <!-- Education -->
-      <div class="profile-edu bg-white p-2">
+
+                    <div class="profile-edu bg-white p-2">
                         <h2 class="text-primary">Education</h2>
                         <div>
                             <h3>University Of Washington</h3>
@@ -103,8 +103,8 @@ const Developers = () => {
                         </div>
                     </div>
 
-                    <!-- Github -->
-      <div class="profile-github">
+
+                    <div class="profile-github">
                         <h2 class="text-primary my-1">
                             <i class="fab fa-github"></i> Github Repos
         </h2>

@@ -10,6 +10,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 import "./App.css";
+import Developers from "./components/Developers";
 
 const App = () => (
   <Provider store={store}>
@@ -20,8 +21,10 @@ const App = () => (
         <section className="container">
           <Alert />
           <Switch>
+            <Route exact path="/Developers" component={Developers} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
+
           </Switch>
         </section>
       </Fragment>
