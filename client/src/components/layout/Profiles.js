@@ -5,16 +5,16 @@ const Profiles = () => {
         <div>
             <nav className="navbar bg-dark">
                 <h1>
-                    <a href="index.html"><i className="fas fa-code"></i> Ctrl-Alt-Fix Developers</a>
+                    <Link to="index.html"><i className="fas fa-code"></i> Ctrl-Alt-Fix Developers</Link>
                 </h1>
                 <ul>
-                    <li><a href="profiles.html">Developers</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><Link to="/profile">Developers</Link></li>
+                    <li><Link to="/register">Register</Link></li>
+                    <li><Link to="/login">Login</Link></li>
                 </ul>
             </nav>
             <section className="container">
-                <a href="profiles.html" className="btn btn-light">Back To Profiles</a>
+                <Link to="profiles.html" className="btn btn-light">Back To Profiles</Link>
 
                 <div className="profile-grid my-1">
 
@@ -25,24 +25,24 @@ const Profiles = () => {
                         <p className="lead">Developer at Microsoft</p>
                         <p>Seattle, WA</p>
                         <div className="icons my-1">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fas fa-globe fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-twitter fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-facebook fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-youtube fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-instagram fa-2x"></i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -57,11 +57,11 @@ const Profiles = () => {
                         <div className="line"></div>
                         <h2 className="text-primary">Skill Set</h2>
                         <div className="skills">
-                            <div className="p-1"><i className="fa fa-check"></i> HTML</div>
-                            <div className="p-1"><i className="fa fa-check"></i> CSS</div>
-                            <div className="p-1"><i className="fa fa-check"></i> JavaScript</div>
-                            <div className="p-1"><i className="fa fa-check"></i> Python</div>
-                            <div className="p-1"><i className="fa fa-check"></i> C#</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> HTML</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> CSS</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> JavaScript</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> Python</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> C#</div>
                         </div>
                     </div>
 
@@ -75,8 +75,8 @@ const Profiles = () => {
                             <p>
                                 <strong>Description: </strong>Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Dignissimos placeat, dolorum ullam
-            ipsam, sapiente suscipit dicta eius velit amet aspernatur
-            asperiores modi quidem expedita fugit.
+            ipsam, sapiente suscipit dictLink eius velit amet aspernatur
+            asperiores modi quidem expeditLink fugit.
           </p>
                         </div>
                         <div>
@@ -86,8 +86,8 @@ const Profiles = () => {
                             <p>
                                 <strong>Description: </strong>Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Dignissimos placeat, dolorum ullam
-            ipsam, sapiente suscipit dicta eius velit amet aspernatur
-            asperiores modi quidem expedita fugit.
+            ipsam, sapiente suscipit dictLink eius velit amet aspernatur
+            asperiores modi quidem expeditLink fugit.
           </p>
                         </div>
                     </div>
@@ -103,8 +103,8 @@ const Profiles = () => {
                             <p>
                                 <strong>Description: </strong>Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Dignissimos placeat, dolorum ullam
-            ipsam, sapiente suscipit dicta eius velit amet aspernatur
-            asperiores modi quidem expedita fugit.
+            ipsam, sapiente suscipit dictLink eius velit amet aspernatur
+            asperiores modi quidem expeditLink fugit.
           </p>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ const Profiles = () => {
         </h2>
                         <div className="repo bg-white p-1 my-1">
                             <div>
-                                <h4><a href="#" target="_blank" rel="noopener noreferrer">Repo One</a></h4>
+                                <h4><Link to="#" target="_blank" rel="noopener noreferrer">Repo One</Link></h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Repellat, laborum!
@@ -132,7 +132,7 @@ const Profiles = () => {
                         </div>
                         <div className="repo bg-white p-1 my-1">
                             <div>
-                                <h4><a href="#" target="_blank" rel="noopener noreferrer">Repo Two</a></h4>
+                                <h4><Link to="#" target="_blank" rel="noopener noreferrer">Repo Two</Link></h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Repellat, laborum!
@@ -151,16 +151,16 @@ const Profiles = () => {
             </section>
             <nav className="navbar bg-dark">
                 <h1>
-                    <a href="index.html"><i className="fas fa-code"></i> Ctrl-Alt-Fix Developers</a>
+                    <Link to="index.html"><i className="fas fa-code"></i> Ctrl-Alt-Fix Developers</Link>
                 </h1>
                 <ul>
-                    <li><a href="profiles.html">Developers</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><Link to="profiles.html">Developers</Link></li>
+                    <li><Link to="register.html">Register</Link></li>
+                    <li><Link to="login.html">Login</Link></li>
                 </ul>
             </nav>
             <section className="container">
-                <a href="profiles.html" className="btn btn-light">Back To Profiles</a>
+                <Link to="profiles.html" className="btn btn-light">Back To Profiles</Link>
 
                 <div className="profile-grid my-1">
 
@@ -171,24 +171,24 @@ const Profiles = () => {
                         <p className="lead">Developer at Microsoft</p>
                         <p>Seattle, WA</p>
                         <div className="icons my-1">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fas fa-globe fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-twitter fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-facebook fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-youtube fa-2x"></i>
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="#" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-instagram fa-2x"></i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -203,11 +203,11 @@ const Profiles = () => {
                         <div className="line"></div>
                         <h2 className="text-primary">Skill Set</h2>
                         <div className="skills">
-                            <div className="p-1"><i className="fa fa-check"></i> HTML</div>
-                            <div className="p-1"><i className="fa fa-check"></i> CSS</div>
-                            <div className="p-1"><i className="fa fa-check"></i> JavaScript</div>
-                            <div className="p-1"><i className="fa fa-check"></i> Python</div>
-                            <div className="p-1"><i className="fa fa-check"></i> C#</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> HTML</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> CSS</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> JavaScript</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> Python</div>
+                            <div className="p-1"><i className="fLink fa-check"></i> C#</div>
                         </div>
                     </div>
 
@@ -221,8 +221,8 @@ const Profiles = () => {
                             <p>
                                 <strong>Description: </strong>Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Dignissimos placeat, dolorum ullam
-            ipsam, sapiente suscipit dicta eius velit amet aspernatur
-            asperiores modi quidem expedita fugit.
+            ipsam, sapiente suscipit dictLink eius velit amet aspernatur
+            asperiores modi quidem expeditLink fugit.
           </p>
                         </div>
                         <div>
@@ -232,8 +232,8 @@ const Profiles = () => {
                             <p>
                                 <strong>Description: </strong>Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Dignissimos placeat, dolorum ullam
-            ipsam, sapiente suscipit dicta eius velit amet aspernatur
-            asperiores modi quidem expedita fugit.
+            ipsam, sapiente suscipit dictLink eius velit amet aspernatur
+            asperiores modi quidem expeditLink fugit.
           </p>
                         </div>
                     </div>
@@ -249,8 +249,8 @@ const Profiles = () => {
                             <p>
                                 <strong>Description: </strong>Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Dignissimos placeat, dolorum ullam
-            ipsam, sapiente suscipit dicta eius velit amet aspernatur
-            asperiores modi quidem expedita fugit.
+            ipsam, sapiente suscipit dictLink eius velit amet aspernatur
+            asperiores modi quidem expeditLink fugit.
           </p>
                         </div>
                     </div>
@@ -262,7 +262,7 @@ const Profiles = () => {
         </h2>
                         <div className="repo bg-white p-1 my-1">
                             <div>
-                                <h4><a href="#" target="_blank" rel="noopener noreferrer">Repo One</a></h4>
+                                <h4><Link to="#" target="_blank" rel="noopener noreferrer">Repo One</Link></h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Repellat, laborum!
@@ -278,7 +278,7 @@ const Profiles = () => {
                         </div>
                         <div className="repo bg-white p-1 my-1">
                             <div>
-                                <h4><a href="#" target="_blank" rel="noopener noreferrer">Repo Two</a></h4>
+                                <h4><Link to="#" target="_blank" rel="noopener noreferrer">Repo Two</Link></h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Repellat, laborum!
